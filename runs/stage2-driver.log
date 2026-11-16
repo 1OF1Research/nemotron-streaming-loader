@@ -1,0 +1,2 @@
+./run-stage2.sh: line 27: 1714758 Killed                  $PY loadercell2.py --arm-dir $ARM --out $R/load-h1shape-6.json --max-new 6 --threads 8 --budget-gib 11 --retain >> $R/load-h1shape-6.log 2>&1
+./run-stage2.sh: line 31: 1714903 Killed                  $PY loadercell2.py --arm-dir $ARM --out $R/load-h1shape-32.json --max-new 32 --threads 8 --budget-gib 11 --retain >> $R/load-h1shape-32.log 2>&1

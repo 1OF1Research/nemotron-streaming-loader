@@ -1,0 +1,6 @@
+The fast path is not available because on of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading checkpoint shards:   0%|          | 0/13 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 13/13 [00:00<00:00, 325.98it/s]
+Some parameters are on the meta device because they were offloaded to the cpu and disk.
+/home/agent/hf-weekend/pool-h/card13/loadercell.py:170: UserWarning: The given buffer is not writable, and PyTorch does not support non-writable tensors. This means you can write to the underlying (supposedly non-writable) buffer using the tensor. You may want to copy the buffer to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:1561.)
+  up = torch.frombuffer(client.get(up_name), dtype=torch.bfloat16)
+LOADER DONE 109.67 tokens [1722, 1317, 4317, 1261, 8648, 3467] fetches 3220 fetch_bytes 32128696320

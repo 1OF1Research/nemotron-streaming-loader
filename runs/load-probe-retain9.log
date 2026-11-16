@@ -1,0 +1,4 @@
+The fast path is not available because on of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading checkpoint shards:   0%|          | 0/13 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/13 [00:00<00:03,  3.35it/s]Loading checkpoint shards: 100%|██████████| 13/13 [00:00<00:00, 31.90it/s]Loading checkpoint shards: 100%|██████████| 13/13 [00:00<00:00, 26.65it/s]
+Some parameters are on the meta device because they were offloaded to the disk and cpu.
+LOADER DONE 104.44 tokens [1722, 1317, 4317, 1261, 8648, 3467] fetches 2748 fetch_bytes 27419148288

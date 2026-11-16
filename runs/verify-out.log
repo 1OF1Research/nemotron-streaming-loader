@@ -1,0 +1,18 @@
+{
+ "checked": 213,
+ "byte_identical": 213,
+ "mismatches": 0,
+ "fails": [],
+ "wall_s": 271.29,
+ "daemon_stats": {
+  "hits": 0,
+  "misses": 213,
+  "evictions": 161,
+  "cache_bytes": 1991103744,
+  "cache_entries": 52,
+  "bytes_from_disk": 3798816000,
+  "bytes_from_cache": 0,
+  "disk_read_s": 5.541
+ }
+}
+VERIFY PASS

@@ -1,0 +1,9 @@
+STAGE2C START 2026-11-11T00:09:13-06:00 hostname=gqxamm
+               total        used        free      shared  buff/cache   available
+Mem:              15           1           3           0          10          14
+Swap:              3           1           2
+expert-loader: 13 shards, 6243 tensors indexed, budget 2000000000 B
+expert-loader: listening on /home/agent/hf-weekend/pool-h/card13/loader.sock
+ARM2 loader H1-shape retain capped 2.0GiB max_new=6 2026-11-11T00:09:17-06:00
+load exit=0 2026-11-11T00:11:25-06:00
+STAGE2C ALL DONE 2026-11-11T00:11:25-06:00

@@ -1,0 +1,2 @@
+expert-loader: 13 shards, 6243 tensors indexed, budget 500000000 B
+expert-loader: listening on /home/agent/hf-weekend/pool-h/card13/loader.sock

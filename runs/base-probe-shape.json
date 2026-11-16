@@ -1,0 +1,185 @@
+{
+ "probe": "card13-stream",
+ "threads": 4,
+ "budget_gib": 0,
+ "prompt_len": 14,
+ "disk_units": 52,
+ "load_s": 1.51,
+ "conv1d_materialized": 23,
+ "routers_wrapped": 23,
+ "pass_s": 226.19,
+ "minflt_delta": 8957151,
+ "majflt_delta": 132353,
+ "hwm_kb": 1396900,
+ "out_ids": [
+  1784,
+  6330,
+  1307,
+  1278,
+  28680,
+  7555,
+  19570,
+  1294,
+  1278,
+  2158,
+  8042,
+  1044,
+  2200,
+  47798,
+  1722,
+  1317
+ ],
+ "new_token": [
+  1722,
+  1317
+ ],
+ "forwards_logged": {
+  "backbone.layers.1.mixer.gate": 2,
+  "backbone.layers.3.mixer.gate": 2,
+  "backbone.layers.6.mixer.gate": 2,
+  "backbone.layers.8.mixer.gate": 2,
+  "backbone.layers.10.mixer.gate": 2,
+  "backbone.layers.13.mixer.gate": 2,
+  "backbone.layers.15.mixer.gate": 2,
+  "backbone.layers.17.mixer.gate": 2,
+  "backbone.layers.20.mixer.gate": 2,
+  "backbone.layers.22.mixer.gate": 2,
+  "backbone.layers.24.mixer.gate": 2,
+  "backbone.layers.27.mixer.gate": 2,
+  "backbone.layers.29.mixer.gate": 2,
+  "backbone.layers.31.mixer.gate": 2,
+  "backbone.layers.34.mixer.gate": 2,
+  "backbone.layers.36.mixer.gate": 2,
+  "backbone.layers.38.mixer.gate": 2,
+  "backbone.layers.40.mixer.gate": 2,
+  "backbone.layers.43.mixer.gate": 2,
+  "backbone.layers.45.mixer.gate": 2,
+  "backbone.layers.47.mixer.gate": 2,
+  "backbone.layers.49.mixer.gate": 2,
+  "backbone.layers.51.mixer.gate": 2
+ },
+ "per_call_distinct": {
+  "backbone.layers.1.mixer.gate": [
+   59,
+   6
+  ],
+  "backbone.layers.3.mixer.gate": [
+   51,
+   6
+  ],
+  "backbone.layers.6.mixer.gate": [
+   40,
+   6
+  ],
+  "backbone.layers.8.mixer.gate": [
+   33,
+   6
+  ],
+  "backbone.layers.10.mixer.gate": [
+   41,
+   6
+  ],
+  "backbone.layers.13.mixer.gate": [
+   24,
+   6
+  ],
+  "backbone.layers.15.mixer.gate": [
+   36,
+   6
+  ],
+  "backbone.layers.17.mixer.gate": [
+   35,
+   6
+  ],
+  "backbone.layers.20.mixer.gate": [
+   29,
+   6
+  ],
+  "backbone.layers.22.mixer.gate": [
+   39,
+   6
+  ],
+  "backbone.layers.24.mixer.gate": [
+   32,
+   6
+  ],
+  "backbone.layers.27.mixer.gate": [
+   41,
+   6
+  ],
+  "backbone.layers.29.mixer.gate": [
+   44,
+   6
+  ],
+  "backbone.layers.31.mixer.gate": [
+   47,
+   6
+  ],
+  "backbone.layers.34.mixer.gate": [
+   37,
+   6
+  ],
+  "backbone.layers.36.mixer.gate": [
+   40,
+   6
+  ],
+  "backbone.layers.38.mixer.gate": [
+   42,
+   6
+  ],
+  "backbone.layers.40.mixer.gate": [
+   36,
+   6
+  ],
+  "backbone.layers.43.mixer.gate": [
+   40,
+   6
+  ],
+  "backbone.layers.45.mixer.gate": [
+   42,
+   6
+  ],
+  "backbone.layers.47.mixer.gate": [
+   42,
+   6
+  ],
+  "backbone.layers.49.mixer.gate": [
+   46,
+   6
+  ],
+  "backbone.layers.51.mixer.gate": [
+   44,
+   6
+  ]
+ },
+ "layers_logged": 23,
+ "union_per_layer": {
+  "backbone.layers.1.mixer.gate": 62,
+  "backbone.layers.3.mixer.gate": 52,
+  "backbone.layers.6.mixer.gate": 41,
+  "backbone.layers.8.mixer.gate": 34,
+  "backbone.layers.10.mixer.gate": 43,
+  "backbone.layers.13.mixer.gate": 25,
+  "backbone.layers.15.mixer.gate": 36,
+  "backbone.layers.17.mixer.gate": 36,
+  "backbone.layers.20.mixer.gate": 29,
+  "backbone.layers.22.mixer.gate": 41,
+  "backbone.layers.24.mixer.gate": 32,
+  "backbone.layers.27.mixer.gate": 42,
+  "backbone.layers.29.mixer.gate": 46,
+  "backbone.layers.31.mixer.gate": 48,
+  "backbone.layers.34.mixer.gate": 39,
+  "backbone.layers.36.mixer.gate": 42,
+  "backbone.layers.38.mixer.gate": 45,
+  "backbone.layers.40.mixer.gate": 38,
+  "backbone.layers.43.mixer.gate": 42,
+  "backbone.layers.45.mixer.gate": 44,
+  "backbone.layers.47.mixer.gate": 44,
+  "backbone.layers.49.mixer.gate": 48,
+  "backbone.layers.51.mixer.gate": 46
+ },
+ "union_min": 25,
+ "union_max": 62,
+ "union_mean": 41.52,
+ "note": "one pass = prefill(14 tok) + 1 decode step; union counts experts touched per layer across both forwards"
+}
